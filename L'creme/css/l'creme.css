@@ -92,12 +92,12 @@ main img{
 
 .row {
   display: flex;
+  text-align: center;
 }
 
 .column {
   flex: 33.33%;
-  flex: 100%;
-  padding: 5px;
+  padding: 1%;
 }
 
 footer{
