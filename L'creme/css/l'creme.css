@@ -1,3 +1,7 @@
+body{
+	margin: 0px;
+}
+
 header{
 	background-image: url('../img/restaurant.jpeg');
 	background-repeat: no-repeat;
@@ -13,7 +17,7 @@ header{
 .box{
 	width: 650px;
 	height: 150px;
-	background-color: paleturquoise;
+	background-color: lightcyan;
 	align-content: center;
 	text-align: center;
 }
@@ -29,6 +33,10 @@ header{
 	background-color: whitesmoke;
 }
 
+main{
+	background-color: lightgrey;
+	margin-top: 0px;
+}
 
 main h1{
 	text-align: center;
@@ -44,8 +52,36 @@ main img{
     margin-left: 120px;
 }
 
+.pago{
+	text-align: center;
+	background-color: whitesmoke;
+}
+
 .pago img{
 	width: 150px;
-	height: 50px;
-	border-radius: 10px;
+    height: 50px;
+    border-radius: 55px;
+    padding: 45px;
+}
+
+.info{
+	background-color: beige;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
