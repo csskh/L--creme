@@ -1,5 +1,13 @@
+html{
+	background-color: lightgrey;
+}
+
 body{
 	margin: 0px;
+}
+
+h1, h2{
+    font-family: 'Comic Neue', cursive;
 }
 
 header{
@@ -88,4 +96,8 @@ main img{
 .column {
   flex: 33.33%;
   padding: 5px;
+}
+
+footer{
+	text-align: center;
 }
